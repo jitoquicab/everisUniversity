@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Everis.Back.FAQ</name>
+    </assembly>
+    <members>
+        <member name="M:Everis.Back.FAQ.Configurations.ConfigureConnections.AddConnectionProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds the connection provider.
+            </summary>
+            <returns>The connection provider.</returns>
+            <param name="services">Services.</param>
+            <param name="configuration">Configuration.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures the repositories.
+            </summary>
+            <returns>The repositories.</returns>
+            <param name="services">Services.</param>
+            <param name="configuration">Configuration.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Configurations.ServicesConfiguration.AddMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds the middleware.
+            </summary>
+            <returns>The middleware.</returns>
+            <param name="services">Services.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Configurations.ServicesConfiguration.AddCorsConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds the cors configuration.
+            </summary>
+            <returns>The cors configuration.</returns>
+            <param name="services">Services.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Configurations.SwaggerConfiguration.AddSwaggerConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds the swagger configuration.
+            </summary>
+            <returns>The swagger configuration.</returns>
+            <param name="services">Services.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.FAQsController.get(System.Int64)">
+            <summary>
+            Consulta una pregunta especifica
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.FAQsController.Obtenerpreguntas">
+            <summary>
+            Consulta todas las preguntas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.FAQsController.crear(Everis.back.FAQ.core.models.Peticiones.v1.Usuarios.Request.RequestFAQs)">
+            <summary>
+            Crear una pregunta
+            </summary>
+            <param name="faq"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.FAQsController.actualizar(Everis.back.FAQ.core.models.Peticiones.v1.Usuarios.Request.RequestFAQs)">
+            <summary>
+            Actualiza los datos de una pregunta
+            </summary>
+            <param name="faq"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.RespuestaController.getRespuesta(System.Int64)">
+            <summary>
+            Consulta una respuesta especifica
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.RespuestaController.ObtenerRespuestas">
+            <summary>
+            Consulta todas las respuestas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.RespuestaController.crearRespuesta(Everis.back.FAQ.core.models.Peticiones.v1.Usuarios.Request.RequestRespuesta)">
+            <summary>
+            Crear una pregunta
+            </summary>
+            <param name="faq"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Everis.Back.FAQ.Controllers.RespuestaController.actualizarRespuesta(Everis.back.FAQ.core.models.Peticiones.v1.Usuarios.Request.RequestRespuesta)">
+            <summary>
+            Actualiza los datos de una respuesta
+            </summary>
+            <param name="faq"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Everis.Back.FAQ.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>The configuration.</value>
+        </member>
+        <member name="M:Everis.Back.FAQ.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">Services.</param>
+        </member>
+        <member name="M:Everis.Back.FAQ.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Configure the specified app and env.
+            </summary>
+            <param name="app">App.</param>
+            <param name="env">Env.</param>
+        </member>
+    </members>
+</doc>
